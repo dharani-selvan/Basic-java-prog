@@ -10,6 +10,7 @@ public class fibo {
         else if(n==1)
             return 1;
         else
+        
             return  n+fiboo(n-1);
     }
 }

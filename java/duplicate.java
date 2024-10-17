@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class duplicate {
     public static void main(String[] args) {
@@ -12,6 +12,27 @@ public class duplicate {
             if(map.get(i)>=2)
             {
                 System.out.print(i+" ");
+            }
+        }
+
+        System.out.println();
+        for(int i=0;i<a.length-1;i++)
+        {
+            for(int j=i+1;j<a.length;j++)
+            {
+                if(a[i]==a[j])
+                {
+                    System.out.print(a[i]+" ");
+                }
+            }
+        }
+        System.out.println();
+        HashSet<Integer> set=new HashSet<>();
+        for(int i=0;i<a.length;i++)
+        {
+            if(!set.add(a[i]))
+            {
+                System.out.print(a[i]+" ");
             }
         }
     }

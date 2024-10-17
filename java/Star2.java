@@ -5,11 +5,11 @@ public class Star2 {
         int n=5;
         for(int i=n;i>0;i--)
         {
-        //      *
-        //     **
-        //    ***
-        //   ****
-        //  *****
+            //*****
+            // ****
+            //  ***
+            //   **
+            //    *
         
     //    * * * * * 
     //     * * * *
@@ -23,7 +23,7 @@ public class Star2 {
             }
             for(int j=i;j>0;j--)
             {
-                System.out.print("* ");
+                System.out.print("*");
             }
             System.out.println();
         }

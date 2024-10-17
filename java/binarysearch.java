@@ -3,6 +3,7 @@ public class binarysearch {
         int a[]={1,3,7,9,16,17,19,22};
         int x=16;
         System.out.println(search(a,x));
+        
     }
 
     public static int search(int[] a, int x) {
