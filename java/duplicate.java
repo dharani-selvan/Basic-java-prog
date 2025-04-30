@@ -27,6 +27,9 @@ public class duplicate {
             }
         }
         System.out.println();
+
+
+        
         HashSet<Integer> set=new HashSet<>();
         for(int i=0;i<a.length;i++)
         {

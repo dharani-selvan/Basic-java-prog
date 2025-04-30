@@ -3,7 +3,7 @@ public class rev {
         String s="hello";
         for(int i=s.length()-1;i>=0;i--)
         {
-            System.err.print(s.charAt(i));
+            System.out.print(s.charAt(i));
         }
         System.out.println();
 

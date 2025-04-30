@@ -14,7 +14,6 @@ public class lar2 {
             {
                 max2=a[i];
             }
-            
         }
         System.out.println(max2);
     }
